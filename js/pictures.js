@@ -50,6 +50,7 @@ var createPicture = function() {
     pictures.likes = getRandomInt(LIKES_NUMBER_MIN, LIKES_NUMBER_MAX);
     pictures.comments = getRandomComment();
     pictures.description = getRandomIndex(pictureDescriptions);
+    pictures.push(picture);
   }
   return pictures;
 }
