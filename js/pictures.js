@@ -91,6 +91,7 @@ var renderBigPicture = function(picture) {
 
 // renderBigPicture(pictures[0]);
 
+
 var commentTemplate = document.querySelector('#comment').content;
 
 function createDomComment(picture) {
@@ -277,3 +278,4 @@ for (i = 0; i < photos.length; i++) {
 
 bigPictureCloseBtn.addEventListener('click', closeBigPicture);
 bigPictureOverlay.addEventListener('click', closeBigPicture);
+
